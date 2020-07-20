@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
-  name = 'ayb-api-py',         # How you named your package folder (MyLib)
-  packages = ['ayb-api-py'],   # Chose the same as "name"
+  name = 'aybapi',         # How you named your package folder (MyLib)
+  packages = ['aybapi'],   # Chose the same as "name"
   version = '1.0.0',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'The official Python AYB API wrapper',   # Give a short description about your library
@@ -10,7 +10,7 @@ setup(
   url = 'https://github.com/AdvertiseYourBot/ayb-api.py',   # Provide either the link to your github or to your website
   download_url = 'https://github.com/AdvertiseYourBot/ayb-api.py/archive/v1.0.0.tar.gz',    # I explain this later on
   keywords = ['ayb', 'api', 'advertiseyourbot'],   # Keywords that define your package best
-  package_dir={'': '/home/matthew/Programming/'},
+  package_dir={'': '/home/matthew/Programming/Python/'},
   install_requires=[],
   classifiers=[
     'Development Status :: 5 - Production/Stable',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
