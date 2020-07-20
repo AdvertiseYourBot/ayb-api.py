@@ -1,6 +1,6 @@
 import requests
-from Bot import Bot
-from Category import Category
+from aybapi.Bot import Bot
+from aybapi.Category import Category
 
 base = "https://api.ayblisting.com"
 
