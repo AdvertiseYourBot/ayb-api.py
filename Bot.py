@@ -20,7 +20,7 @@ class Bot:
       self.long_desc = info['description']
       self.website_url = info['websiteurl']
       self.github_url = info['github']
-      self.support_server_invite = "https://discord.gg/" + info['supportServerCode']
+      self.support_server_invite = "https://discord.gg/" + info['supportservercode']
     else:
       self.note = info['note']
 
