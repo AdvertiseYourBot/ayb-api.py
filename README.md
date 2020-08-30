@@ -2,10 +2,6 @@
 
 The official AYB api wrapper
 
-## Examples
-
-_Coming soon_
-
 ## Classes
 
 ### Client
@@ -111,7 +107,7 @@ _Coming soon_
 
 ### Category
 
-##### Properties
+###### Properties
 
 - **Boolean: success** `The success status of fetching the category`
 - **String: id** `The id of this category`
