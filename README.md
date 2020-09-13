@@ -38,7 +38,7 @@ The official AYB api wrapper
 
   client = aybapi.Client()
   bot = client.fetch_bot("389604896606781440")
-  print(bot.user_name)
+  print(bot)
 
   # Liam
   ```
