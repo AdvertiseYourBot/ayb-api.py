@@ -1,7 +1,7 @@
-from distutils.core import setup
-setup(
+import setuptools
+setuptools.setup(
     name='aybapi',   # Chose the same as "name"
-    version='1.0.5',      # Start with a small number and increase it with every change you make
+    version='1.0.6',      # Start with a small number and increase it with every change you make
     # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     license='MIT',
     # Give a short description about your library
@@ -10,8 +10,6 @@ setup(
     author_email='matievisthekat@iplync.org',      # Type in your E-Mail
     # Provide either the link to your github or to your website
     url='https://github.com/AdvertiseYourBot/ayb-api.py',
-    # I explain this later on
-    download_url='https://github.com/AdvertiseYourBot/ayb-api.py/archive/v1.0.5.tar.gz',
     # Keywords that define your package best
     keywords=['ayb', 'api', 'advertiseyourbot'],
     packages=["aybapi", "aybapi.impl", "aybapi.base", "aybapi.utils"],
